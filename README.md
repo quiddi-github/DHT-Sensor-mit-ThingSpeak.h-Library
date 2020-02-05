@@ -1,7 +1,10 @@
 # Temperatursensor mit Thingspeak-Library
 
-Stand: 1.2.2020
+Stand: 5.2.2020
 
+5.2.2020\
+Fehler behoben, dass jeder zweite Eintrag ein NaN (Not a Number) ist.\
+\
 1.2.2020\
 Temperaturlogger mit Thingspeak-Library.\
 Realisiert mit ESP12 und DHT\

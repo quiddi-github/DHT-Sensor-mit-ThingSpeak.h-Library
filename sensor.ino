@@ -12,11 +12,11 @@
 DHT dht(DHTPIN, DHTTYPE); //Se inicia una variable que ser usada por Arduino para comunicarse con el sensor
 #include <ESP8266WiFi.h>
 
-unsigned long myChannelNumber = 963215; //ChannelID
-const char * myWriteAPIKey = "API-KEY";
+unsigned long myChannelNumber = 965015;//Channel ID
+const char * myWriteAPIKey = "WRITE-API-KEY";
 
-const char* ssid = "SSID-Wlan";
-const char* password = "W-LanPasswd";
+const char* ssid = "SSID-WLAN";
+const char* password = "PW-WLAN";
 
  WiFiClient  client;
 // Create an instance of the server
